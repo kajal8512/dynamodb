@@ -3,7 +3,7 @@ const AWS = require("aws-sdk")
 var dynamoDB = new AWS.DynamoDB.DocumentClient({
     region:"ap-south-1",
     accessKeyId:"AKIA4ZRGSVQLNKNMPKHH",
-    secretAccessKey:"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"
+    secretAccessKey:""
 });
 
 const TABLE_NAME = 'users';
